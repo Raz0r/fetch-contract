@@ -1,0 +1,16 @@
+[package]
+name = "fetch-contract"
+version = "0.1.0"
+authors = ["Raz0r <me@raz0r.name>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "^0.3.21"
+reqwest = {version = "^0.11.3", features = ["blocking"]}
+serde_json = "^1.0.64"
+serde = "^1.0.125"
+serde_with = { version = "^1.4.0", features = ["json"]}
+serde_derive = "^1.0"
+anyhow = "^1.0"
